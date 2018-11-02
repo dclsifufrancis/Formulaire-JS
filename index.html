@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calculatrice / Formulaire JS</title>
+</head>
+<body>
+    <h1>Calculatrice</h1>
+    <form id="container" name="general" action="">
+        <div id="gauche">
+            <input type="text" name="champs1Chiffre" id="champs1Chiffre" maxlength="4" placeholder="4 Chiffre Max">
+            <select name="champsChoixCalcul" id="champsChoixCalcul">
+                <option value="+">+</option>
+                <option value="*">*</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="%">Modulo</option>
+            </select>
+            <input type="text"name="champs2Chiffre" id="champs2Chiffre"maxlength="4"placeholder="4 Chiffre Max">
+        </div>
+        <div id="milieu">
+            <input type="text" name="champsCalculer" id="champsCalculer"placeholder="Calculer">
+        </div>
+        <div id="droite">
+            <input type="text"name="champsResultat" id="champsResultat"placeholder="Résultat">
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
